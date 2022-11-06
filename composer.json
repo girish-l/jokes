@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "girishl/jokes",
+    "description": "this is a package that generates jokes",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "girishl",
+        "jokes"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/girish-l/jokes",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Girish L",
+            "email": "girish.l@hotmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Girishl\\Jokes\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Girishl\\Jokes\\Tests\\": "tests"
         }
     },
     "scripts": {
